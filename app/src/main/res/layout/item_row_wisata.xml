@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:padding="16dp">
+
+<ImageView
+    android:id="@+id/img_item_photo"
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:adjustViewBounds="true"
+    android:scaleType="centerCrop"
+    android:layout_marginEnd="16dp"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TextTitle"
+        android:id="@+id/tv_item_place"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:text="@string/wisata_place" />
+
+    <TextView
+        style="@style/TextComponent"
+        android:id="@+id/tv_item_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        tools:text="@string/wisata_location" />
+</LinearLayout>
+
+</LinearLayout>
